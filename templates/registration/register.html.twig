@@ -1,0 +1,10 @@
+<div id="responsive-div">
+
+	{{ form_start(registrationForm) }}
+	{{ form_row(registrationForm.email) }}
+	{{ form_row(registrationForm.plainPassword, {
+            label: 'Password'
+        }) }}
+
+	{{ form_end(registrationForm) }}
+</div>

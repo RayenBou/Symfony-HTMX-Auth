@@ -1,0 +1,12 @@
+.connexion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  border: 2px solid black;
+}
+body {
+  background-color: rgb(29, 29, 29);
+}

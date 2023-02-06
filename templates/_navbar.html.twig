@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+	<div class="container">
+		<a class="navbar-brand" href="{{ path('app_home') }}">Home</a>
+		<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavId">
+			<ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+				<li class="nav-item">
+
+					<a class="nav-link" href="{{ path('app_register') }}">register</a>
+
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('app_login') }}">login</a>
+				</li>
+				{% if app.user %}
+					<li class="nav-item">
+						<a class="nav-link" href="{{ path('app_logout') }}">logout</a>
+					</li>
+				{% endif %}
+			</ul>
+
+		</div>
+	</div>
+</nav>
