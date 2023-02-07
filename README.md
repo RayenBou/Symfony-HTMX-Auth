@@ -13,7 +13,7 @@ Mettez de coté React et adoptez HTMX sur symfony ! :D
 
 ## Informations additionnelles
 
-Il existe une multitude de solutions pour la gestion du cache comme Mercure ou encore UX-turbo. Mais nous avons trouvé qu'elle n'etaient ni simples ni intuitifs. L'utilisation de HTMX pour ce projet est tourné autour de la rapidité d'utilisation du code.
+Il existe une multitude de solutions pour la gestion du cache comme Mercure ou encore UX-turbo. Mais nous trouvons qu'elles ne sont ni simples ni intuitifs. L'utilisation de HTMX pour ce projet est tourné autour de la rapidité d'utilisation du code.
 
 
 Symfony possedant son propre systeme de securité, nous avons fait en sorte d'utiliser au maximum toute la base du framework afin d'ecrire le moins de code.
